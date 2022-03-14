@@ -25,7 +25,7 @@ interface NavItemProps {
 }
 
 export const NavItem = ({ to, children }: NavItemProps) => (
-  <ul>
+  <li>
     <StyledNavLink to={to}>{children}</StyledNavLink>
-  </ul>
+  </li>
 );
